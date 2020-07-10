@@ -1,0 +1,6 @@
+# node folder
+node_modules
+.vscode
+
+# generated folder
+dist

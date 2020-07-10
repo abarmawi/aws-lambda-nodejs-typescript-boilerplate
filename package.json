@@ -1,0 +1,21 @@
+{
+    "name": "y",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "engines": {
+        "node": "12"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/aws-lambda": "^8.10.57",
+        "typescript": "^3.9.6"
+    },
+    "dependencies": {
+        "aws-lambda": "^1.0.6"
+    }
+}
