@@ -1,28 +1,30 @@
 {
-    "name": "aws-lambda-nodejs-typescript-boilerplate",
+    "name": "rerento-api",
     "version": "1.0.0",
-    "description": "aws lambda nodejs & typescript boilerplate",
+    "description": "Rerento backend apis",
     "main": "index.js",
     "scripts": {
+        "prepare": "husky install",
         "build": "tsc",
         "lint": "eslint '{src,!dist}/**/*.{js,ts,tsx,json}' --quiet --fix",
-        "prettifying": "prettier --write --check \"./**/*.ts\" --check \"./**/*.js\" --check \"./**/*.json\" --check \"./**/*.md\""
+        "prettifying": "prettier --write --check \"./**/*.ts\" --check \"./**/*.js\" --check \"./**/*.json\" --check \"./**/*.md\" --check !dist"
     },
     "engines": {
-        "node": "12"
+        "node": "14",
+        "npm": "7"
     },
     "author": "",
     "license": "ISC",
     "devDependencies": {
         "@types/aws-lambda": "^8.10.57",
-        "@typescript-eslint/eslint-plugin": "^3.6.0",
-        "@typescript-eslint/parser": "^3.6.0",
+        "@typescript-eslint/eslint-plugin": "^3.10.1",
+        "@typescript-eslint/parser": "^3.10.1",
         "eslint": "^7.4.0",
-        "eslint-config-prettier": "^6.11.0",
-        "eslint-plugin-prettier": "^3.1.4",
-        "husky": "^4.2.5",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "husky": "^7.0.2",
         "prettier": "^2.0.5",
-        "typescript": "^3.9.6"
+        "typescript": "^4.4.3"
     },
     "dependencies": {
         "aws-lambda": "^1.0.6"

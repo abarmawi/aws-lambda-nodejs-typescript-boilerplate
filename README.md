@@ -1,6 +1,6 @@
-# aws lambda nodejs using typescript boilerplate
+# Rerento Backend API
 
-This a serverless application (lambda) (nodejs & typescript) boilerplate used boost lambda development
+Rerento aws lambda backend API
 
 ## Requirement
 
